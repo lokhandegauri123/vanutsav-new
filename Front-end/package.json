@@ -1,0 +1,55 @@
+{
+  "name": "vanutsav",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google-pay/button-react": "^3.2.1",
+    "aos": "^2.3.4",
+    "axios": "^1.12.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.3",
+    "emailjs-com": "^3.2.0",
+    "express": "^5.1.0",
+    "firebase": "^12.6.0",
+    "flowbite": "^3.1.2",
+    "framer-motion": "^12.23.24",
+    "razorpay": "^2.9.6",
+    "react": "^18.3.1",
+    "react-calendar": "^6.0.0",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.9.4",
+    "react-slick": "^0.31.0",
+    "react-toastify": "^11.0.5",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.21",
+    "nodemon": "^3.1.11",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18",
+    "vite": "^5.0.0"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmicsuyog/ERROR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cosmicsuyog/ERROR/issues"
+  },
+  "homepage": "https://github.com/cosmicsuyog/ERROR#readme"
+}

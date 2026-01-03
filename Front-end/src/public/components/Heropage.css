@@ -1,0 +1,32 @@
+.bg-cover-center {
+    background-image: url('/photos/vanutsav.png');
+    /* Background for mobile devices */
+    background-size: contain;
+    /* Ensure it fits within the container */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Tablet (iPad Air, iPad Pro, and similar devices) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .bg-cover-center {
+        background-image: url('/photos/vanutsav.png');
+        /* Optimized for tablets */
+        background-size: cover;
+        /* Make sure it covers the full container */
+        background-position: center center;
+        /* Adjust position to avoid zooming */
+    }
+}
+
+/* Large devices (laptops and desktops) */
+@media (min-width: 1024px) {
+    .bg-cover-center {
+        background-image: url('/photos/vanutsav.png');
+        /* Optimized for desktop */
+        background-size: cover;
+        /* Cover the container without stretching */
+        background-position: center center;
+        /* Center the image perfectly */
+    }
+}
